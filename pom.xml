@@ -9,8 +9,7 @@
     <name>HornetQ Perf Example</name>
 
     <properties>
-        <netty.version>3.6.2.Final</netty.version>
-        <hornetq.version>2.3.1.Final</hornetq.version>
+        <hornetq.version>2.3.19.Final</hornetq.version>
     </properties>
 
     <dependencies>
@@ -23,31 +22,6 @@
          <groupId>org.hornetq</groupId>
          <artifactId>hornetq-commons</artifactId>
          <version>${hornetq.version}</version>
-      </dependency>
-      <dependency>
-         <groupId>io.netty</groupId>
-         <artifactId>netty</artifactId>
-         <version>${netty.version}</version>
-      </dependency>
-      <dependency>
-         <groupId>org.jboss.javaee</groupId>
-         <artifactId>jboss-jms-api</artifactId>
-         <version>1.1.0.GA</version>
-      </dependency>
-      <dependency>
-         <groupId>org.jboss.naming</groupId>
-         <artifactId>jnp-client</artifactId>
-         <version>5.0.5.Final</version>
-      </dependency>
-      <!--dependency>
-         <groupId>org.hornetq.examples.jms</groupId>
-         <artifactId>hornetq-jms-examples-common</artifactId>
-         <version>${project.version}</version>
-      </dependency -->
-      <dependency>
-         <groupId>org.jboss.spec.javax.jms</groupId>
-         <artifactId>jboss-jms-api_1.1_spec</artifactId>
-        <version>1.0.1.Final</version>
       </dependency>
     </dependencies>
 
@@ -78,4 +52,3 @@
     </profiles>
 
 </project>
-
