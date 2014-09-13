@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.redhat.gpe</groupId>
     <version>1.0</version>
-    <artifactId>hornetq-core-perf-example</artifactId>
+    <artifactId>hornetq-perf-test</artifactId>
     <packaging>jar</packaging>
     <name>HornetQ Perf Example</name>
 
